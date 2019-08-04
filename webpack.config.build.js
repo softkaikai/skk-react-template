@@ -50,10 +50,5 @@ module.exports = {
         'react-router-dom': 'ReactRouterDom',
         'react-router': 'ReactRouter',
         'single-spa-react': 'singleSpaReact',
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './index.html')
-        })
-    ]
+    }
 }
